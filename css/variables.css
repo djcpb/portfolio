@@ -1,0 +1,27 @@
+:root {
+    --bg: #09090b;
+    --bg-surface: #18181b;
+    --bg-card: #1c1c1f;
+    --border: #27272a;
+    --accent: #6366f1;
+    --accent-light: #818cf8;
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-muted: #52525b;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 4px 32px rgba(0, 0, 0, 0.4);
+    --transition: 0.25s ease;
+    --font-mono: 'Fira Code', 'Cascadia Code', 'Courier New', monospace;
+}
+
+[data-theme="light"] {
+    --bg: #ffffff;
+    --bg-surface: #f4f4f5;
+    --bg-card: #ffffff;
+    --border: #e4e4e7;
+    --text-primary: #09090b;
+    --text-secondary: #52525b;
+    --text-muted: #a1a1aa;
+    --shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+}
